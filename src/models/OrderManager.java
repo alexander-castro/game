@@ -22,7 +22,6 @@ public class OrderManager{
     public void merge(int [] list, int start, int middle, int end){
         int indexLeft = start;
         int indexRight = middle + 1;
-        System.out.println(indexLeft + "-" + indexRight);
         int [] newList = new int[end - start];
         int actualPosition = 0;
         while(indexLeft < middle && indexRight < end){
